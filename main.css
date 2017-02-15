@@ -47,7 +47,7 @@ main {
 h3 {
     font-weight: 900;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     letter-spacing: 0.31px;
 }
 
@@ -69,6 +69,13 @@ p {
     margin: 1rem 0;
 }
 
+#tab-1:checked ~ .labels #label-1,
+#tab-2:checked ~ .labels #label-2 {
+    background: #F7F7F7;
+    color: #38B777;
+    border-radius: 0.5rem;
+}
+
 .labels {
     text-align: center;
 }
@@ -76,23 +83,24 @@ p {
 label {
     cursor: pointer;
     display: inline-block;
-    width: 15rem;
     margin: 0 1rem;
+    padding: 0.5rem 1rem 0.3rem 0.5rem
 }
 
 .labels h3 {
     display: inline-block;
-    vertical-align: 0.75rem;
+    vertical-align: 0.9rem;
     margin-left: 0.5rem;
 }
 
 label svg {
-    fill: #F7F7F7;
+    fill: currentColor;
     width: 3rem;
 }
 
 .contact {
     text-align: center;
+    margin: 2rem 0;
 }
 
 .button {
