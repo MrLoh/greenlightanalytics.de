@@ -84,7 +84,8 @@ label {
     cursor: pointer;
     display: inline-block;
     margin: 0 1rem;
-    padding: 0.5rem 1rem 0.3rem 0.5rem
+    padding: 0.5rem 1rem 0.3rem 0.5rem;
+    transition: all 0.5s;
 }
 
 .labels h3 {
