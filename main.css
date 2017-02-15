@@ -121,7 +121,8 @@ footer {
     text-align: center;
     font-size: 0.8rem;
     font-weight: 700;
-    margin-top: 4rem;
+    margin: 3rem auto 1rem auto;
+    max-width: 50rem;
 }
 
 footer p {
