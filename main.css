@@ -13,7 +13,7 @@ body {
 
 main {
     background-image: linear-gradient(-180deg, #56C667 0%, #29AF7F 100%);
-    box-shadow: 1px 2px 20px 2px rgba(79,176,139,0.70);
+    box-shadow: 1px 2px 20px 2px rgba(79,176,139,.7);
     border-radius: 0.5rem;
     padding: 2rem 4rem;
     box-sizing: border-box;
@@ -36,8 +36,64 @@ main {
     margin-bottom: 2rem;
 }
 
+h3 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.5rem;
+    letter-spacing: 0.31px;
+}
+
 p {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: justify;
+}
+
+.tabs input[type=radio] {
+    display: none;
+}
+
+.content > div {
+    display: none;
+}
+#tab-1:checked ~ .content #content-1,
+#tab-2:checked ~ .content #content-2 {
+    display: block;
+    margin: 1rem 0;
+}
+
+.labels {
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 15rem;
+    margin: 0 1rem;
+}
+
+.labels h3 {
+    display: inline-block;
+    vertical-align: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+label svg {
+    fill: #F7F7F7;
+    width: 3rem;
+}
+
+.contact {
+    text-align: center;
+}
+
+.button {
+    background: #F7F7F7;
+    color: #29AF7F;
+    padding: 0.4rem 0.7rem 0.5rem 0.7rem;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 20px 2px rgba(0,0,0,.1);
 }
