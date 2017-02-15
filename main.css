@@ -30,7 +30,7 @@ main {
 }
 
 .slogan {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 2rem;
     text-align: right;
     margin-bottom: 2rem;
@@ -89,6 +89,7 @@ label svg {
 }
 
 .button {
+    font-weight: 700;
     background: #F7F7F7;
     color: #29AF7F;
     padding: 0.4rem 0.7rem 0.5rem 0.7rem;
