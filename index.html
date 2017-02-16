@@ -7,8 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script type="text/javascript">
-		var lang = navigator.language.substr(0,2).toLowerCase();
-		if (lang === 'en') {
+		var browserLang = navigator.language.substr(0,2).toLowerCase();
+		var urlLang = window.location.search.split('=')[1]
+		if (browserLang === 'en' && urlLang !== 'de' ) {
 			window.location = "http://greenlightanalytics.de/en"
 		}
 	</script>
