@@ -66,6 +66,10 @@ h3 {
     letter-spacing: 0.31px;
 }
 
+strong {
+    font-weight: 900;
+}
+
 p {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
